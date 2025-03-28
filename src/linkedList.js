@@ -70,7 +70,6 @@ export class LinkedList{
         }
     }
 
-
     tail(){
         if(this.arr[0] === undefined){
            return "No node";
@@ -212,7 +211,6 @@ export class LinkedList{
             }
         }
     }
-    
     
     insertAt(value , index){
         let lastNode = this.findIndexOf(this.tail().value);

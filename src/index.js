@@ -1,6 +1,4 @@
 import {LinkedList} from "./linkedList.js"
-
-
 // first case
 const list = new LinkedList();
 
